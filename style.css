@@ -1,0 +1,28 @@
+html{
+    background-color:green;
+    
+}
+/* the background  */
+
+h1{
+    text-align: center;
+    padding-top:50px ;
+}
+
+
+.quest{
+    background-color: black;
+    color: white;
+    margin-left: 25px;
+    
+}
+
+.lbl{
+    color:red;
+}
+/* To label the questions from the answers*/
+
+.but{
+    margin-left: 750px;
+}
+/* For the Submit button */

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+   
+    <form name="quiz" id="quiz">
+    <div class="quest">
+        <h1>JavaScript and HTML Quiz</h1>
+        <div class="quest">
+        <label class="lbl" name="quest1"> 1. Inside which HTML element do you put the JavaScript?</label><br><br>
+        
+       <p><input type="radio"  name="quest1"  value="A">&lt; script &gt;<br></p> 
+       <p><input type="radio"   name="quest1"  value="B">&lt; js &gt;<br> </p> 
+        <p><input type="radio"  name="quest1"  value="C">&lt; javascript &gt;<br></p>
+       <br>
+       
+    </div>
+      
+    <div class="quest">
+            <label class="lbl" name="quest2"> 2. What is the correct JavaScript synatx to write "Hello World" ?</label><br><br>
+              
+        <p><input type="radio" name="quest2"  value="A"> The &lt; head  &gt; section<br></p>
+        <p> <input type="radio" name="quest2"  value="B">Both the &lt;body  &gt;and &lt;head &gt;section<br> </p>
+       <p><input type="radio" name="quest2"  value="C">The body &lt;section &gt;<br></p> 
+    </div>
+   
+    <div class="quest">
+        <label class="lbl" name="quest3"> 3. What is the correct syntax for referring to an external script called "File.js"?</label><br><br>
+        
+       <p><input type="radio" name="quest3"  value="A">&lt;script href="File.js"&gt;<br></p> 
+        <p><input type="radio" name="quest3"  value="B">&lt;script name="File.js"&gt;<br> </p>
+       <p><input type="radio" name="quest3"  value="C"> &lt;script src="File.js"&gt;<br><br>
+       </div></p> 
+
+       <div class="quest">
+        <label class="lbl" name="quest4"> 4. How to write an IF statement in JavaScript?</label><br><br>
+        
+       <p><input type="radio" name="quest4"  value="A"> if i=5 then   <br></p> 
+        <p><input type="radio" name="quest4"  value="B"> if i=5 <br> </p>
+       <p><input type="radio" name="quest4"  value="C"> if (i==5) <br><br>
+       </div></p> 
+        
+
+       <div class="quest">
+        <label class="lbl" name="quest5"> 5. How to do you create function in JavaScript?</label><br><br>
+        
+       <p><input type="radio" name="quest5"  value="A"> function myfunction()   <br></p> 
+        <p><input type="radio" name="quest5"  value="B"> function = myfunction() <br> </p>
+       <p><input type="radio" name="quest5"  value="C"> function:myfunction <br><br>
+       </div></p> 
+        
+
+
+        
+       <input type="button" class="but" value="Submit" onclick="check()">
+       <p id="result"> </p>
+
+        
+         
+    </div>
+    
+       
+       
+    
+
+       
+  
+    
+</form>
